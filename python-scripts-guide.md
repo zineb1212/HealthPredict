@@ -83,14 +83,6 @@ mlflow ui
 4. **Visualize**: Generate 3 EDA plots
 5. **Export**: Save to `data/diabetes_processed.csv`
 
-**Example**:
-```python
-from data_preparation import load_and_prepare_data
-
-df = load_and_prepare_data()
-# Returns cleaned DataFrame with 768 rows, 9 columns
-```
-
 ### Model Training (`model_training.py`)
 
 **Input**: Cleaned data from data preparation
@@ -103,17 +95,6 @@ df = load_and_prepare_data()
 - Accuracy, Precision, Recall, F1-Score
 - ROC-AUC, Cross-validation scores
 
-**Example**:
-```python
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import cross_val_score
-
-model = RandomForestClassifier(n_estimators=100, max_depth=10)
-model.fit(X_train_scaled, y_train)
-
-cv_scores = cross_val_score(model, X_train_scaled, y_train, cv=5)
-print(f"CV Mean: {cv_scores.mean():.4f}")
-```
 
 ## 📈 Expected Results
 
@@ -125,24 +106,6 @@ print(f"CV Mean: {cv_scores.mean():.4f}")
 ### Cross-Validation
 - 5-fold CV mean: 75% ± 5%
 - Indicates good generalization
-
-## 🔍 Troubleshooting
-
-### Issue: "No module named 'pandas'"
-```bash
-pip install -r requirements.txt --upgrade
-```
-
-### Issue: "URLError: urlopen error"
-- Check internet connection
-- Dataset might be temporarily unavailable
-- Use local CSV: `pd.read_csv('local_file.csv')`
-
-### Issue: "mlflow ui" not running
-```bash
-pip install mlflow --upgrade
-mlflow ui --port 5000 --host 127.0.0.1
-```
 
 ## 📖 Resources
 
