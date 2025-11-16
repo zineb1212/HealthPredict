@@ -114,37 +114,9 @@ mlflow ui                     # View experiments at http://localhost:5000
 - 📊 Demographic breakdown
 - 💊 Segment-specific insights
 
-## 🛠️ Tech Stack
-
-**Frontend**
-- Next.js 15 with App Router
-- React 18 with TypeScript
-- Tailwind CSS for styling
-- Recharts for visualizations
-- shadcn/ui components
-
-**Backend**
-- Next.js API Routes
-- TypeScript for type safety
-- CSV data loading
-- In-memory model inference
-
-**Data Science**
-- Python 3.10+
-- Pandas for data manipulation
-- Scikit-learn for ML algorithms
-- MLflow for experiment tracking
-- NumPy for numerical computing
-
-**DevOps**
-- Git for version control
-- GitHub for repository
-- Vercel for deployment
-- Environment configuration
-
 ## ⚠️ Medical Disclaimer
 
-**IMPORTANT - READ CAREFULLY**
+**IMPORTANT**
 
 This tool is for **educational and informational purposes only**.
 
