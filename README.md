@@ -42,6 +42,8 @@ npm run dev
 - Enter patient data (age, glucose, BMI, etc.)
 - Click **Get Prediction**
 - See risk level + recommendations
+(screenshots/1.png)
+(screenshots/2.png)
 
 ### Optional: Train Models Locally
 
