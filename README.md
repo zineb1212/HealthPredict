@@ -55,59 +55,22 @@ HealthPredict is a comprehensive full-stack application demonstrating advanced d
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Node.js 18+
-- Python 3.10+
-- npm or pnpm
+## Installation
 
-### Installation
+### Prérequis
+- Node.js 18+ installé
+- npm ou pnpm
 
+### Étapes
 \`\`\`bash
-# Clone repository
-git clone https://github.com/yourname/HealthPredict.git
+git clone https://github.com/tonnom/HealthPredict.git
 cd HealthPredict
-
-# Install dependencies
 npm install
-
-# Run development server
 npm run dev
 \`\`\`
 
-Access at `http://localhost:3000`
+Accédez à : **http://localhost:3000**
 
-### Python Setup (Optional - for model training)
-
-\`\`\`bash
-# Install Python dependencies
-pip install -r scripts/requirements.txt
-
-# Prepare data
-cd scripts
-python data_preparation.py
-
-# Train models
-python model_training.py
-
-# View MLflow dashboard
-mlflow ui  # http://localhost:5000
-\`\`\`
-
-
-### Running Scripts
-
-\`\`\`bash
-# Data preparation
-python scripts/data_preparation.py
-# Outputs: data/diabetes_processed.csv, eda/*.png
-
-# Model training
-python scripts/model_training.py
-# Outputs: models/*.pkl, MLflow logs
-
-# View experiments
-mlflow ui
-\`\`\`
 
 ## ⚠️ Medical Disclaimer
 
