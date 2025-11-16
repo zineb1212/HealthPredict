@@ -41,10 +41,10 @@ npm install
 
 ### 2. Run Application
 
-\`\`\`bash
+```bash
 npm run dev
 # Open http://localhost:3000
-\`\`\`
+```
 
 ### 3. Use the App
 
@@ -55,13 +55,13 @@ npm run dev
 
 ### Optional: Train Models Locally
 
-\`\`\`bash
+```bash
 pip install -r scripts/requirements.txt
 cd scripts
 python data_preparation.py  # Loads & cleans data
 python model_training.py     # Trains models & logs to MLflow
 mlflow ui                     # View experiments at http://localhost:5000
-\`\`\`
+```
 
 
 ## 🤖 ML Models Performance
