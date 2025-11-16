@@ -10,16 +10,6 @@
 ![MLflow](https://img.shields.io/badge/MLflow-2.7-red?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Architecture](#architecture)
-- [ML Models](#ml-models)
-- [Dashboard](#dashboard)
-- [For Your CV](#for-your-cv)
-
 ## 🎯 Overview
 
 HealthPredict is a **production-ready full-stack ML application** demonstrating professional-grade data science combined with modern web development. This project showcases:
@@ -31,13 +21,13 @@ HealthPredict is a **production-ready full-stack ML application** demonstrating 
 
 ## 🚀 Quick Start
 
-### 1. Clone & Install (2 minutes)
+### 1. Clone & Install
 
-\`\`\`bash
+```bash
 git clone https://github.com/yourname/HealthPredict.git
 cd HealthPredict
 npm install
-\`\`\`
+```
 
 ### 2. Run Application
 
